@@ -1,0 +1,41 @@
+div.practice{
+    font-style: italic;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+   width: 1000px;
+   height:400px;
+    margin-top: 20px;
+    overflow: scroll;
+    
+    
+}
+div.practice>input{
+    font-size: 80px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border:20px solid red;
+    background-color: blue;
+}
+ div.practice>input:hover{
+    background-color: red;
+    border: 20px solid blue;
+
+}
+div.practice>input:visitd{
+    border:20px solid rgb(34, 188, 23);
+    background-color: rgb(164, 16, 105);
+}
+div.practice>input:focus{
+    background-color: yellow;
+    border: 1px solid green;
+
+}
+div.imp{
+    width: fit-content;
+    border: 2px solid red;
+}
+div{
+    display: block;
+
+}
